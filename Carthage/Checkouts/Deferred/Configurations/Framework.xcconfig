@@ -1,0 +1,32 @@
+#include "Base.xcconfig"
+
+// Build Options
+APPLICATION_EXTENSION_API_ONLY = YES
+
+// Deployment
+INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+SKIP_INSTALL = YES
+COMBINE_HIDPI_IMAGES[sdk=macosx*] = YES
+
+// Linking
+DYLIB_COMPATIBILITY_VERSION = 1
+DYLIB_CURRENT_VERSION = 1
+DYLIB_INSTALL_NAME_BASE = @rpath
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]           = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*]         = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]  = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=watchos*]          = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=watchsimulator*]   = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvos*]        = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvsimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+
+// Packaging
+DEFINES_MODULE = YES
+FRAMEWORK_VERSION[sdk=macosx*] = A
+INFOPLIST_FILE = Sources/Info.plist
+MODULEMAP_FILE = $(PROJECT_DIR)/Sources/module.modulemap
+PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.$(TARGET_NAME)
+PRODUCT_NAME = Deferred
+
+// Swift Compiler - Custom Flags
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) XCODE

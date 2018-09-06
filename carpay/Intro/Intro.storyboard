@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iFZ-0v-Hdz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gradient Bg View Controller-->
+        <scene sceneID="y8G-go-HyY">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="Jzn-gd-AUM" customClass="GradientBgViewController" customModule="carpay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z82-pw-V4N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page2" translatesAutoresizingMaskIntoConstraints="NO" id="Fqq-zX-50B">
+                                <rect key="frame" x="22" y="88.5" width="331" height="510"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="510" id="Uqx-u7-jhb"/>
+                                    <constraint firstAttribute="width" constant="331" id="ohb-aw-l5p"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fqq-zX-50B" firstAttribute="centerX" secondItem="qm3-Gx-5tb" secondAttribute="centerX" id="Ugx-YJ-Egz"/>
+                            <constraint firstItem="Fqq-zX-50B" firstAttribute="centerY" secondItem="qm3-Gx-5tb" secondAttribute="centerY" id="wHJ-5g-cCP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qm3-Gx-5tb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HUK-IZ-Dld" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2814" y="136"/>
+        </scene>
+        <!--Gradient Bg View Controller-->
+        <scene sceneID="iV2-3i-BOD">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="aRb-s6-7pK" customClass="GradientBgViewController" customModule="carpay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DmU-CQ-G1G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page3" translatesAutoresizingMaskIntoConstraints="NO" id="ATb-x9-bWh">
+                                <rect key="frame" x="22" y="88.5" width="331" height="510"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="510" id="ROL-La-MG7"/>
+                                    <constraint firstAttribute="width" constant="331" id="VOe-8Y-xpj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ATb-x9-bWh" firstAttribute="centerY" secondItem="WZn-K4-isl" secondAttribute="centerY" id="Lpm-Dr-sIe"/>
+                            <constraint firstItem="ATb-x9-bWh" firstAttribute="centerX" secondItem="WZn-K4-isl" secondAttribute="centerX" id="Ssq-oI-sUZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WZn-K4-isl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbZ-Q4-dEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2150" y="136"/>
+        </scene>
+        <!--PageViewController-->
+        <scene sceneID="3Xa-cF-wFN">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" title="PageViewController" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="iFZ-0v-Hdz" customClass="PageViewController" customModule="carpay" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNi-Rw-hIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4186" y="136"/>
+        </scene>
+        <!--Gradient Bg View Controller-->
+        <scene sceneID="MOc-cl-jQy">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="qze-ZW-oEx" customClass="GradientBgViewController" customModule="carpay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mbS-90-MA2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page1" translatesAutoresizingMaskIntoConstraints="NO" id="kUq-ZL-SVT">
+                                <rect key="frame" x="41" y="237.5" width="292" height="212"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kUq-ZL-SVT" firstAttribute="leading" secondItem="ucM-WR-Ph8" secondAttribute="leading" constant="41" id="5Ld-Oq-0oI"/>
+                            <constraint firstItem="kUq-ZL-SVT" firstAttribute="centerX" secondItem="ucM-WR-Ph8" secondAttribute="centerX" id="eoQ-fd-FwZ"/>
+                            <constraint firstItem="kUq-ZL-SVT" firstAttribute="centerY" secondItem="ucM-WR-Ph8" secondAttribute="centerY" id="xzD-lv-mU7"/>
+                            <constraint firstItem="ucM-WR-Ph8" firstAttribute="trailing" secondItem="kUq-ZL-SVT" secondAttribute="trailing" constant="42" id="z65-mb-f5K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ucM-WR-Ph8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPk-xI-FUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3490" y="136"/>
+        </scene>
+        <!--Last Page View Controller-->
+        <scene sceneID="xJb-TT-l7e">
+            <objects>
+                <viewController storyboardIdentifier="page4" id="T7P-oY-NOa" customClass="LastPageViewController" customModule="carpay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XVo-t2-JiX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page4" translatesAutoresizingMaskIntoConstraints="NO" id="Sxf-Rm-dN2">
+                                <rect key="frame" x="22" y="44" width="331" height="510"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="eIe-xS-cSu"/>
+                                    <constraint firstAttribute="height" constant="510" id="rXe-mp-CfG"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95O-5y-a4y">
+                                <rect key="frame" x="122.5" y="574" width="130" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="HYc-kC-DSQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <state key="normal" title="LET'S GO!">
+                                    <color key="titleColor" red="0.23999999999999999" green="0.14901960780000001" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hAF-Q7-DlH" kind="show" id="vcc-H4-3Hj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="95O-5y-a4y" firstAttribute="top" secondItem="Sxf-Rm-dN2" secondAttribute="bottom" constant="20" id="9FR-Wb-N9J"/>
+                            <constraint firstItem="Sxf-Rm-dN2" firstAttribute="top" secondItem="lmd-g2-i7F" secondAttribute="top" constant="24" id="bfw-ZP-pGM"/>
+                            <constraint firstItem="95O-5y-a4y" firstAttribute="centerX" secondItem="lmd-g2-i7F" secondAttribute="centerX" id="fOe-0m-rCD"/>
+                            <constraint firstItem="Sxf-Rm-dN2" firstAttribute="centerX" secondItem="lmd-g2-i7F" secondAttribute="centerX" id="nGc-7H-kHb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lmd-g2-i7F"/>
+                    </view>
+                    <connections>
+                        <outlet property="startButton" destination="95O-5y-a4y" id="JOA-AI-bgP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cDV-qy-mXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1486" y="136"/>
+        </scene>
+        <!--Authentication-->
+        <scene sceneID="N39-HV-Cw7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Authentication" id="hAF-Q7-DlH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="evo-UJ-xFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-730" y="135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="page1" width="610" height="212"/>
+        <image name="page2" width="510" height="866"/>
+        <image name="page3" width="568" height="1069"/>
+        <image name="page4" width="551" height="1041"/>
+    </resources>
+</document>

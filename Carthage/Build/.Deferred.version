@@ -1,0 +1,27 @@
+{
+  "Mac" : [
+    {
+      "name" : "Deferred",
+      "hash" : "7a7e859b7c5770c5aecb85088e7584730f28a4c9351724ca5b068cb249877182"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "Deferred",
+      "hash" : "a20dc86049efad21d8270d5dae934dd2c740472e966af106155049ca92e33d88"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "Deferred",
+      "hash" : "25a6d16dec14e32ee7d4e74320dcba9ac009ef92cfea0792d53f49a49755cd21"
+    }
+  ],
+  "commitish" : "3.3.2",
+  "iOS" : [
+    {
+      "name" : "Deferred",
+      "hash" : "24f545bd458a353179de87315f3b234c767d8c73390a93c526d707c2da2d7fbd"
+    }
+  ]
+}
